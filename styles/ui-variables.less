@@ -20,12 +20,14 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 @background-secondary: #2E3440;
 @background-tertiary: #6d7987;
 
+
 @border-color-primary: lighten(@background-primary, 10%);
 @border-color-secondary: lighten(@background-secondary, 10%);
 @border-color-tertiary: lighten(@background-tertiary, 10%);
 @border-color-divider: @border-color-secondary;
 
 @text-color: #D8DEE9;
+@text-color: #999;
 @text-color-subtle: fadeout(@text-color, 20%);
 @text-color-very-subtle: fadeout(@text-color, 40%);
 @text-color-inverse: white;
@@ -44,9 +46,10 @@ https://github.com/Foundry376/Mailspring/blob/master/app/static/base/ui-variable
 @input-border: @border-color-divider;
 
 @list-bg: #2E3440;
+
 @list-border: #242931;
 @list-selected-color: @text-color-inverse;
-@list-focused-color: @text-color;
+@list-focused-color: @text-color-inverse;
 
 @toolbar-background-color: #242931;
 @panel-background-color: #242931;
